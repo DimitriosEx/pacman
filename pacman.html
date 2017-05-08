@@ -16,7 +16,7 @@
 	</audio>
     <script>
         var audio = document.getElementById("RoyaltyMusic");
-        RoyaltyMusic.volume = 0.2;
+        RoyaltyMusic.volume = 0.2; //to volume
     </script>
 </head>
 <body>
@@ -38,7 +38,7 @@
         this.current = Phaser.NONE;
         this.turning = Phaser.NONE;
         this.score = 0; //gia to score 
-		this.scoreText = null; //gia to text tou score
+	this.scoreText = null; //gia to text tou score
         this.health = 50; //gia to health
         this.healthText = null; //gia to text tou health
     };
@@ -53,8 +53,8 @@
         preload: function () {
             //  We need this because the assets are on github pages
             //  Remove the next 2 lines if running locally
-           //  this.load.baseURL = 'https://DimitriosEx.github.io/pacman/';
-          //  this.load.crossOrigin = 'anonymous';
+            this.load.baseURL = 'https://DimitriosEx.github.io/pacman/';
+            this.load.crossOrigin = 'anonymous';
             this.load.image('dot', 'assets/cookie.png');            
             this.load.image('hppotion', 'assets/Hppotion.png');
             this.load.image('tiles', 'assets/pacman-tiles.png');
@@ -75,7 +75,7 @@
             //  The dots will need to be offset by 6px to put them back in the middle of the grid
             this.dots.setAll('x', 6, false, false, 1);
             this.dots.setAll('y', 6, false, false, 1);
-			this.hppotions.setAll('x', 6, false, false, 1);
+	    this.hppotions.setAll('x', 6, false, false, 1);
             this.hppotions.setAll('y', 6, false, false, 1);
             //  Pacman should collide with everything except the safe tile
             
@@ -102,7 +102,7 @@
             this.move(Phaser.LEFT);
             
            
-            game.time.events.loop(Phaser.Timer.SECOND * 5,createRandom,this); 
+            game.time.events.loop(Phaser.Timer.SECOND * 5,createRandom,this); //to loop parapempei sto oti tha ginei loopa olo auto kai malista kathe 5 seconds tha kaleitai h createRandom sunarthsh
             
             function createRandom(){
 
@@ -110,12 +110,12 @@
                 
                 
 
-            }
+            } //h random sunarthsh pou tha paragei ta tuxaia shmeia sta opoia tha kanoun spawn ta hppotions
                         
             function destroySprite(hppotions) {
 
                     this.hppotions.destroy();
-                }
+                } //destroy sunarthsh pou tha katastrefei ta hppotion pou exoun dhmiourgithei(den exei ginei praksh akoma)
         },
         checkKeys: function () {
             if (this.cursors.left.isDown && this.current !== Phaser.LEFT)
