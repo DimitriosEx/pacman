@@ -10,7 +10,7 @@
 ## ΔΕΥΤΕΡΟ ΠΑΡΑΔΟΤΕΟ - Άλλαξε πρωταγωνιστή, πρόσθεσε επιπλέον αντικείμενα και δημιουργία νέας πίστας
 
 
- - <a href ="https://dimitriosex.github.io/pacman/pacman.html">Το παιχνιδι</a>
+ <a href ="https://dimitriosex.github.io/pacman/pacman.html">Το παιχνιδι</a>
 
 - Στην θέση του pacman έβαλα τον luigi-man και αντί για bullets έβαλα cookies. 
 - Επίσης πρόσθεσα hp-potions. 
@@ -20,7 +20,7 @@
 
 ##  ΤΡΙΤΟ ΠΑΡΑΔΟΤΕΟ - Πρόσθεσε score, bonus, ζωές και ήχους
 
-- <a href ="https://dimitriosex.github.io/pacman/pacman.html">Το παιχνιδι</a>
+<a href ="https://dimitriosex.github.io/pacman/pacman.html">Το παιχνιδι</a>
 
 - Από το προηγούμενο παραδοτέο είχα προσθέσει τον ήχο, με την διαφορά ότι μείωσα την ένταση του ήχου όταν κάποιος μπαίνει στο παιχνίδι στο 20%. 
 - Επίσης πρόσθεσα score το οποίο αυξάνεται κατά 1 κάθε φορα που ο luigi-man τρωει ενα cookie καθώς και ζωή σε περίπτωση που o luigi-man περάσει πάνω απο κάποιο Hp-potion. 
@@ -30,6 +30,10 @@
 
 
 ## ΤΕΤΑΡΤΟ ΠΑΡΑΔΟΤΕΟ - Πρόσθεσε εχθρούς και χρόνο.
+
+<a href ="https://dimitriosex.github.io/pacman/pacman.html">Το παιχνιδι</a>
+
+
 - Έβαλα προσθήκη χρόνου. Υπάρχει δηλαδή μια μεταβλητή scoreTime που ξεκινάει από το 0 και αυξάνεται όσο περνάνε τα δευτερόλεπτα.
 - Τελική αναφορά.
 
