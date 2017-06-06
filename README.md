@@ -35,10 +35,19 @@
 
 
 - Έβαλα προσθήκη χρόνου. Υπάρχει δηλαδή μια μεταβλητή scoreTime που ξεκινάει από το 0 και αυξάνεται όσο περνάνε τα δευτερόλεπτα.
-- Τελική αναφορά.
+
+- Τελική αναφορά: Σε σχέση με το αρχικό pacman έγιναν προσθήκες τροποιήσεις και βελτιώσεις.
+- Βιβλιογραφία : Μερικά sites που χρησιμοποίησα για να πάρω βοήθεια ήταν το  http://phaser.io/examples , https://www.youtube.com (παρακολούθηση tutorial για την υλοποίηση των σκέψεων μου), forums οπως http://www.html5gamedevs.com/ και https://stackoverflow.com/( όπου έβρισκα λύσεις για παρόμοια προβλήματα που είχαν αντιμετωπίσει άλλα άτομα πριν απο μένα)
+- Εικόνες και sprites πάρθηκαν από https://www.spriters-resource.com/game_boy_advance/mlss/sheet/7542/ και απο google εικόνες.
+- Προγράμματα που με βοήθησαν ήταν το tiled , brackets (text editor) , xampp, gimp.
+
+## Βελτίωση και προσθήκη
+- Πρόσθεσα speed potions (sppotions) τα οποία αυξάνουν την ταχύτητα του παίκτη +2 κάθε φορά που τρώει ένα τέτοιο ελιξήριο.
+- Έφτιαξα δεύτερο health potion ώστε τα random potions που θα εμφανίζονται στο map να μην γίνονται όλα revive μαζί με τα αρχικά.
+
 
 
 ## link
 
-<a href ='https://dimitriosex.github.io/pacman/'>Mypacmanpage</a>
+[Mypacmanpage](https://dimitriosex.github.io/pacman/)
 
