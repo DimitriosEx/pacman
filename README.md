@@ -34,7 +34,7 @@
 - Τελική αναφορά.
 
 
-##link
+## link
 
-<p><href ='https://dimitriosex.github.io/pacman/'/>Mypacmanpage</p>
+<a href ='https://dimitriosex.github.io/pacman/'>Mypacmanpage</a>
 
